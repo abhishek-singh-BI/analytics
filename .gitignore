@@ -176,3 +176,5 @@ cython_debug/
 # ignore vs workspace abc
 *.code-Workspace
 
+# ignore .ds
+.DS_Store
