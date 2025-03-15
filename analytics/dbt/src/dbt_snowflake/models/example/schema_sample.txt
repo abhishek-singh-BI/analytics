@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: dbt_model_test_abhishek
+    description: "A starter dbt model"
+
+sources:
+  - name: table_name1
+    database: abc  # Database for sales data
+    schema: xyz          # Schema for sales data
+    tables:
+      - name: table_name1
+        description: "description"
+
+  - name: table_name2
+    database: xxx  # Database for marketing data
+    schema: cccc       # Schema for marketing data
+    tables:
+      - name: table_name2
+        description: "description"

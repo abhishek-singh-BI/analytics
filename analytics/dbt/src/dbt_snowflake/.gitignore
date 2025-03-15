@@ -1,0 +1,8 @@
+
+target/
+dbt_packages/
+logs/
+
+dbt_model_test_abhishek.sql
+schema.yml
+dbt_project.yml
